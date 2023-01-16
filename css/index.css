@@ -1,0 +1,111 @@
+@charset "utf-8";
+
+.container {
+    position: relative;
+    width: 450px;
+    margin: 0 auto;
+    padding: 10px 30px;
+    margin-top: 15px;
+    border: 1px solid #000;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+button {
+    width: 80px;
+    height: 40px;
+    cursor: pointer;
+    background-color: transparent;
+    border: 1px solid #000;
+}
+
+
+#money {
+    text-align: center;
+}
+
+#money > button {
+    width: 65px;
+    height: 40px;
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+}
+
+.put {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button:hover {
+    color: white;
+}
+
+#calc {
+    width: 260px;
+    height: 40px;
+    text-align: right;
+    margin: 10px 0 10px 30px;
+}
+
+#menu {
+    display: flex;
+    justify-content: space-around;
+}
+
+.imgBtn > button {
+    border: none;
+    background-color: #b1a7fb;
+    border-radius: 5px;
+}
+
+.imgBtn {
+    margin-bottom: 20px;
+}
+
+.imgBtn > img {
+    width: 75px;
+    height: 140px;
+}
+
+.image {
+    display: flex;
+}
+
+#screen {
+    margin-right: 30px;
+    border: 1px soild gray;
+    text-align: right;
+}
+#spend {
+    height: 40px;
+    text-align: right;
+}
+
+.pay {
+    margin-left: 20px;
+}
+
+.use-money > input {
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+.give-money > input {
+    margin-left: 15px;
+}
+.use-money  > button {
+    border: none;
+    background-color: orange;
+    border-radius: 5px;
+    margin-left: 8px;
+}
+#change {
+    height: 40px;
+    text-align: right;
+}

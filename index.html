@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./js/index.js"></script>
+    <title>거스름돈 계산기</title>
+</head>
+<body>
+    <div class="container">
+        <h1>자판기</h1>
+        <div id="money">
+            <button onclick="func1(this)">100</button>
+            <button onclick="func1(this)">500</button>
+            <button onclick="func1(this)">1000</button>
+            <button onclick="func1(this)">5000</button>
+            <button onclick="func1(this)">10000</button><br>
+        </div>
+
+        <div class="put">
+            <span>투입액</span>
+            <input id="calc" type="text" name="result" value="">
+        </div>
+
+        <div id="menu">
+
+            <div class="btn1">
+                <div class="imgBtn">
+                    <img src="./images/cocacola.png" alt=""> <br>
+                    <button onclick="func2(this)">코카콜라 <br><span>1100</span></button>
+                </div>
+                <div class="imgBtn">
+                    <img src="./images/milkiss.png" alt=""> <br>
+                    <button onclick="func2(this)">밀키스 <br><span>1100</span></button>
+                </div>
+                <div class="imgBtn"> 
+                    <img src="./images/sprite.png" alt=""> <br>
+                    <button onclick="func2(this)">스프라이트 <br><span>1000</span></button>
+                </div>
+            </div>
+            <div class="btn2">
+                <div class="imgBtn">
+                    <img src="./images/cider.png" alt=""> <br>
+                    <button onclick="func2(this)">칠성사이다 <br><span>1100</span></button>
+                </div>
+                <div class="imgBtn"> 
+                    <img src="./images/fanta.png" alt=""> <br>
+                    <button onclick="func2(this)">환타 <br><span>1100</span></button>
+                </div>
+                <div class="imgBtn">  
+                    <img src="./images/toreta.png" alt=""> <br>
+                    <button onclick="func2(this)">토레타 <br><span>1000</span></button>
+                </div>
+            </div>
+            <div class="btn3">
+                <div class="imgBtn">
+                    <img src="./images/cocopam.png" alt=""> <br>
+                    <button onclick="func2(this)">코코팜 <br><span>1100</span></button>
+                </div>
+                <div class="imgBtn">
+                    <img src="./images/tams.png" alt=""> <br>
+                    <button onclick="func2(this)">탐스제로 <br><span>1100</span></button>
+                </div>
+                <div class="imgBtn"> 
+                    <img src="./images/welchs.png" alt=""> <br>
+                    <button onclick="func2(this)">웰치제로 <br><span>1000</span></button>
+                </div>
+            </div>
+        </div>
+
+        <div id="screen"></div>
+        <br>
+        <div class="pay">
+            <div class="use-money">
+                <span>지출액</span>
+                <input id="spend" type="text" value="">
+                <button onclick="calc()">계산</button>
+            </div>
+            <div class="give-money">
+                <span>거스름돈</span>
+                <input id="change" type="text" value="">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
